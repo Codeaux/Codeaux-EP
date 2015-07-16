@@ -83,6 +83,10 @@ echo "Ensure that all dependencies are up to date...  If this is the first time 
   exit 1
 }
 
+npm install ep_adminpads
+npm install ep_syntaxhighlighting
+npm install mongodb
+
 echo "Ensure jQuery is downloaded and up to date..."
 DOWNLOAD_JQUERY="true"
 NEEDED_VERSION="1.9.1"

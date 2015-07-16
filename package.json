@@ -1,0 +1,26 @@
+{
+  "name": "codeaux-etherpad",
+  "version": "0.0.1",
+  "description": "codeaux solution for real-time editor",
+  "license": "MIT",
+  "author": {
+    "name": "Chen YanHua <a0125362@u.nus.edu> and Wong Kin Fei <a0076509@u.nus.edu>",
+    "url": "https://github.com/Codeaux/codeaux-etherpad/graphs/contributors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Codeaux/codeaux-etherpad"
+  },
+  "bugs": {
+    "url": "https://github.com/Codeaux/codeaux-etherpad/issues"
+  },
+  "engines": {
+    "node": ">=0.12.5",
+    "npm": ">=2.11.0"
+  },
+  "dependencies": {
+    "ep_adminpads": "~0.0.9",
+    "ep_syntaxhighlighting": "~0.1.5",
+    "mongodb": "~2.0.39"
+  }
+}
