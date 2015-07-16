@@ -18,6 +18,7 @@ src/node_modules/
 # Etherpad Assets
 # ==================
 etherpad-lite-win.zip
+settings.json
 APIKEY.txt
 SESSIONKEY.txt
 .ep_initialized
