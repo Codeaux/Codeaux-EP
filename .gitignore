@@ -1,18 +1,43 @@
+# iOS / Apple
+# ===========
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# Node & Related
+# ================
+npm-debug.log
+node_modules/
+public/lib/
+src/node_modules/
+
+# Brackets.io
+# ===========
+.brackets.json
+
+# Etherpad Assets
+# ==================
+etherpad-lite-win.zip
 APIKEY.txt
 SESSIONKEY.txt
-bin/abiword.exe
-bin/node.exe
-etherpad-lite-win.zip
-var/dirty.db
-bin/convertSettings.json
-*~
-*.patch
-src/static/js/jquery.js
-npm-debug.log
-*.DS_Store
 .ep_initialized
 *.crt
 *.key
+bin/abiword.exe
+bin/convertSettings.json
 bin/etherpad-1.deb
-src/node_modules
-node_modules
+bin/node.exe
+src/static/js/jquery.js
+var/dirty.db
+
+# Others
+# ======
+*.patch
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.tmp
+*.bak
+*.swp
